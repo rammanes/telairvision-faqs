@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telairvision FAQs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primaryRed: #e13c52; /* Primary Red */
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+      }
+      .accordion-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+
+      .accordion-active .accordion-content {
+        max-height: 250px;
+      }
+
+      .accordion-active svg {
+        transform: rotate(180deg);
+      }
+
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+      }
+
+      ol {
+        list-style-type: decimal;
+        margin-left: 20px;
+      }
+      strong {
+        color: var(--primaryRed);
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="py-24">
+      <div class="mx-auto max-w-3xl px-2 sm:px-2 md:px-0 lg:px-0">
+        <div class="mb-16">
+          <h6 class="text-lg text-primaryRed font-medium text-center mb-2">
+            Frequently asked questions
+          </h6>
+          <h2
+            class="text-4xl font-manrope text-center font-bold text-gray-900 leading-[3.25rem]"
+          >
+            Got question? We're here to help!
+          </h2>
+        </div>
+
+        <div class="accordion-group" data-accordion="default-accordion">
+          <!-- Accordion Item 1 -->
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-one-with-arrow"
+            >
+              <h5>What is Telairvision?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-one-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-one-with-arrow"
+            >
+              <p class="text-base text-gray-900 leading-6">
+                Telairvision is a premier streaming platform offering a diverse
+                range of African content. We provide high-quality movies, TV
+                shows, documentaries, and original productions that celebrate
+                and showcase the richness of African culture and storytelling.
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion Item 2 -->
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-two-with-arrow"
+            >
+              <h5>Who can benefit from Telairvision services?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-two-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-two-with-arrow"
+            >
+              <ul class="text-base text-gray-900 leading-6">
+                <li>Viewers interested in authentic African content.</li>
+                <li>
+                  Africans in diaspora looking to stay connected to their roots.
+                </li>
+                <li>
+                  Anyone seeking diverse and culturally rich entertainment
+                  options.
+                </li>
+                <li>Users looking to build valuable skills for the future.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Accordion Item 3 -->
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-three-with-arrow"
+            >
+              <h5>What services does Telairvision offer?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-three-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-three-with-arrow"
+            >
+              <ul class="text-base text-gray-900 leading-6">
+                <li>
+                  <strong>Streaming of African Content: </strong> Access a vast
+                  library of movies, TV shows, documentaries and original
+                  content from various African countries.
+                </li>
+                <li>
+                  <strong>Original Production: </strong> Enjoy exclusive content
+                  created by Telairvision, highlighting unique African stories
+                  and talent.
+                </li>
+                <li>
+                  <strong>Exclusive Training: </strong> Acquire valuable skills
+                  from our array of courses curated by top talents across
+                  various industries.
+                </li>
+                <li>
+                  <strong>Curated Playlist and Recommendations: </strong>
+                  Discover new content through personalised recommendations and
+                  curated playlist.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-three-with-arrow"
+            >
+              <h5>How much does a subscription to Telairvision cost?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-three-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-three-with-arrow"
+            >
+              <p class="text-base text-gray-900 leading-6">
+                You can choose from our various subscription plans based on your
+                specific needs:
+              </p>
+              <ul class="text-base text-gray-900 leading-6">
+                <li><strong>Premium - N999/£2.99/$4.99 </strong></li>
+                <li><strong>Exclusive - N1,999/£3.99/$5.99</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <!-- Accordion Item 3 -->
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-three-with-arrow"
+            >
+              <h5>How does Telairvision ensure the quality of its content?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-three-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-three-with-arrow"
+            >
+              <p class="text-base text-gray-900 leading-6">
+                We partner with top filmmakers, studios, and content creators
+                across Africa to bring you high-quality, authentic content. Our
+                team curates and reviews all content to ensure it meets our
+                standards for storytelling, production quality, and cultural
+                representation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion Item 4 -->
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-four-with-arrow"
+            >
+              <h5>
+                What makes Telairvision different from other streaming
+                platforms?
+              </h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-four-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-four-with-arrow"
+            >
+              <p class="text-base text-gray-900 leading-6">
+                Telairvision redefines streaming with a unique blend of freemium
+                and exclusive content, including local-language movies and
+                self-learning videos. We celebrate Africa’s stories and
+                cultures, offering experiences that entertain, educate, and
+                connect you to the continent.
+              </p>
+            </div>
+          </div>
+          <!-- Accordion Item 3 -->
+
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-three-with-arrow"
+            >
+              <h5>What kind of content is available on the app?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-three-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-three-with-arrow"
+            >
+              <p class="text-base text-gray-900 leading-6">
+                Telairvision provides a variety of original content, including;
+              </p>
+              <ol class="text-base text-gray-900 leading-6">
+                <li>
+                  <strong>Feature films:</strong> Original movies that tell
+                  compelling African stories.
+                </li>
+                <li>
+                  <strong>TV Series:</strong> Engaging series with diverse
+                  genres from drama to comedy.
+                </li>
+                <li>
+                  <strong>Documentaries:</strong> Insightful documentaries that
+                  explore Africa’s history, culture and current events.
+                </li>
+                <li>
+                  <strong>Nostalgic Movies:</strong> Classic African films that
+                  evoke a sense of Nostalgic and celebrate the cinematic history
+                  of the continent.
+                </li>
+                <li>
+                  <strong>Micro Content:</strong> Short-form content created by
+                  influencers and digital creators that offer quick and engaging
+                  viewing experiences.
+                </li>
+                <li>
+                  <strong>Movies in Different Languages:</strong> Films
+                  available in various African languages to cater to a diverse
+                  audience and promote linguistic heritage.
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <!-- Accordion Item 6 -->
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-three-with-arrow"
+            >
+              <h5>Are there parental controls available on Telairvision?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-three-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-three-with-arrow"
+            >
+              <p class="text-base text-gray-900 leading-6">
+                Yes, Telairvision offers parental controls to ensure a safe
+                viewing experience for children. You can set restrictions on
+                content based on age ratings.
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion Item 6 -->
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-three-with-arrow"
+            >
+              <h5>Will there be any non-African content on Telairvision?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-three-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-three-with-arrow"
+            >
+              <p class="text-base text-gray-900 leading-6">
+                No. Telairvision is dedicated to telling the African story.
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion Item 7 -->
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-three-with-arrow"
+            >
+              <h5>How can I cancel my subscription?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-three-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-three-with-arrow"
+            >
+              <p class="text-base text-gray-900 leading-6">
+                You can camcel your subscription by going to your account
+                settings in the app or on our website and selecting
+                <strong>"Cancel subscription"</strong>.
+              </p>
+            </div>
+          </div>
+
+          <!-- Accordion Item 4 -->
+          <div
+            class="accordion py-8 px-6 mb-4 border-b border-solid border-gray-200 transition-all duration-500 rounded-2xl hover:bg-indigo-50"
+          >
+            <button
+              class="accordion-toggle group inline-flex items-center justify-between leading-8 text-gray-900 w-full transition duration-500 text-left hover:text-indigo-600"
+              aria-controls="basic-collapse-three-with-arrow"
+            >
+              <h5>How can I contact customer support?</h5>
+              <svg
+                class="text-gray-500 transition duration-500 group-hover:text-indigo-600"
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5 8.25L12.4142 12.3358C11.7475 13.0025 11.4142 13.3358 11 13.3358C10.5858 13.3358 10.2525 13.0025 9.58579 12.3358L5.5 8.25"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="basic-collapse-three-with-arrow"
+              class="accordion-content w-full px-0 overflow-hidden"
+              aria-labelledby="basic-heading-three-with-arrow"
+            >
+              <p class="text-base text-gray-900 leading-6">
+                You can reach our customer support team through the following
+                channels.
+              </p>
+              <ul class="text-base text-gray-900 leading-6">
+                <li><strong>Email: </strong> support@telairvision.com</li>
+                <li><strong>Phone: </strong> +2348179002000</li>
+                <li><strong>Website: </strong> www.telairvision.com</li>
+                <li>
+                  <strong>Office Address: </strong> 27 Euphrates Crescent,
+                  Abuja, Nigeria, Zip Code 900271
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Start of Tawk.to Script-->
+    <!-- <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/66c0309a0cca4f8a7a77006e/1i5s2n4qb";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script> -->
+    <!--End of Tawk.to Script-->
+
+    <script>
+      document.querySelectorAll(".accordion-toggle").forEach((button) => {
+        button.addEventListener("click", () => {
+          const accordion = button.closest(".accordion");
+          const content = accordion.querySelector(".accordion-content");
+
+          accordion.classList.toggle("accordion-active");
+          if (accordion.classList.contains("accordion-active")) {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } else {
+            content.style.maxHeight = 0;
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
